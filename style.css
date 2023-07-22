@@ -3,13 +3,16 @@ body {
     background-attachment: fixed;
   }
   h1 {
+    background-color: #7fb5bd;
     align-content: center;
-    color: rgb(0, 0, 0);
+    color: rgb(56, 3, 3);
     text-align: center;
   }
   p {
     color: rgb(3, 1, 46);
     text-align: center;
+    font-size: 2rem;
+     font-family:  sans-serif;
   }
   .topnav {
     background-color: #047e6b;
@@ -18,7 +21,7 @@ body {
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: right;
+    float:  right;
     color: #ef8585;
     text-align: center;
     padding: 14px 16px;
@@ -34,7 +37,7 @@ body {
   
   /* Create a right-aligned (split) link inside the navigation bar */
   .topnav a.split {
-    float: right;
+    float:  left;
     background-color: #04AA6D;
     color: white;
   }
@@ -74,4 +77,8 @@ body {
   div.desc {
     padding: 15px;
     text-align: center;
+  }
+  .Newss img{
+    width: 100%;
+    height: auto;
   }
