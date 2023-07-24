@@ -82,3 +82,13 @@ body {
     width: 100%;
     height: auto;
   }
+  .social{
+    color: #040404;
+    transition: color 0.4s;
+    text-decoration: none;
+    margin: 5px 10px;
+    
+  }
+  .social:hover{
+    color: #2de9e6;
+  }
